@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5E7E443627413F470003BC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E443527413F470003BC34 /* AppDelegate.swift */; };
-		5E7E443827413F470003BC34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E443727413F470003BC34 /* SceneDelegate.swift */; };
 		5E7E443A27413F470003BC34 /* PurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E443927413F470003BC34 /* PurchasesViewController.swift */; };
 		5E7E443D27413F470003BC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7E443B27413F470003BC34 /* Main.storyboard */; };
 		5E7E444027413F470003BC34 /* MarcosApostolo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E443E27413F470003BC34 /* MarcosApostolo.xcdatamodeld */; };
 		5E7E444227413F480003BC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7E444127413F480003BC34 /* Assets.xcassets */; };
 		5E7E444527413F480003BC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7E444327413F480003BC34 /* LaunchScreen.storyboard */; };
 		5E7E4451274142FC0003BC34 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E4450274142FC0003BC34 /* SettingsViewController.swift */; };
+		5EA588D42753D52E0074B206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA588D32753D52E0074B206 /* SceneDelegate.swift */; };
+		5EA588D62753DCC30074B206 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA588D52753DCC30074B206 /* Values.swift */; };
+		5EAFCB2027471AF700552062 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCB1F27471AF700552062 /* Settings.bundle */; };
+		5EAFCB2227471FE400552062 /* SettingsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCB2127471FE400552062 /* SettingsConfig.swift */; };
 		5EB26321274164890070B4A5 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB26320274164890070B4A5 /* ResultsViewController.swift */; };
 		5EB26324274164B80070B4A5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB26323274164B80070B4A5 /* RegisterViewController.swift */; };
+		5EB2632827416A390070B4A5 /* ViewController+context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2632727416A390070B4A5 /* ViewController+context.swift */; };
+		5EB84449274495FA0068C788 /* ResultCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB84448274495FA0068C788 /* ResultCalculator.swift */; };
+		5EF19132274291EB00F19F01 /* PurchasesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF19130274291EB00F19F01 /* PurchasesTableViewCell.swift */; };
+		5EF191352742961E00F19F01 /* Purchase+Various.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF191342742961E00F19F01 /* Purchase+Various.swift */; };
+		5EF191372742B1A800F19F01 /* ViewController+keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF191362742B1A800F19F01 /* ViewController+keyboard.swift */; };
+		5EF191392742B3EE00F19F01 /* ViewController+textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF191382742B3EE00F19F01 /* ViewController+textField.swift */; };
+		5EF191422742BC6400F19F01 /* StatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF191402742BC6400F19F01 /* StatesTableViewCell.swift */; };
+		5EF191492742C52100F19F01 /* StatesPickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF191482742C52100F19F01 /* StatesPickerPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E7E443227413F470003BC34 /* MarcosApostolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcosApostolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7E443527413F470003BC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E7E443727413F470003BC34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E7E443927413F470003BC34 /* PurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
 		5E7E443C27413F470003BC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E7E443F27413F470003BC34 /* MarcosApostolo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarcosApostolo.xcdatamodel; sourceTree = "<group>"; };
@@ -30,8 +40,20 @@
 		5E7E444427413F480003BC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E7E444627413F480003BC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7E4450274142FC0003BC34 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5EA588D32753D52E0074B206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		5EA588D52753DCC30074B206 /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		5EAFCB1F27471AF700552062 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		5EAFCB2127471FE400552062 /* SettingsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConfig.swift; sourceTree = "<group>"; };
 		5EB26320274164890070B4A5 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		5EB26323274164B80070B4A5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5EB2632727416A390070B4A5 /* ViewController+context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+context.swift"; sourceTree = "<group>"; };
+		5EB84448274495FA0068C788 /* ResultCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCalculator.swift; sourceTree = "<group>"; };
+		5EF19130274291EB00F19F01 /* PurchasesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesTableViewCell.swift; sourceTree = "<group>"; };
+		5EF191342742961E00F19F01 /* Purchase+Various.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Purchase+Various.swift"; sourceTree = "<group>"; };
+		5EF191362742B1A800F19F01 /* ViewController+keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+keyboard.swift"; sourceTree = "<group>"; };
+		5EF191382742B3EE00F19F01 /* ViewController+textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+textField.swift"; sourceTree = "<group>"; };
+		5EF191402742BC6400F19F01 /* StatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesTableViewCell.swift; sourceTree = "<group>"; };
+		5EF191482742C52100F19F01 /* StatesPickerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesPickerPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +70,7 @@
 		5E7E442927413F470003BC34 = {
 			isa = PBXGroup;
 			children = (
+				5EA588D52753DCC30074B206 /* Values.swift */,
 				5E7E443427413F470003BC34 /* MarcosApostolo */,
 				5E7E443327413F470003BC34 /* Products */,
 			);
@@ -69,12 +92,19 @@
 				5EB2631D274164290070B4A5 /* Purchases */,
 				5EB2631C274164100070B4A5 /* RegisterProduct */,
 				5E7E443B27413F470003BC34 /* Main.storyboard */,
+				5EA588D32753D52E0074B206 /* SceneDelegate.swift */,
 				5E7E443527413F470003BC34 /* AppDelegate.swift */,
-				5E7E443727413F470003BC34 /* SceneDelegate.swift */,
 				5E7E444127413F480003BC34 /* Assets.xcassets */,
 				5E7E444327413F480003BC34 /* LaunchScreen.storyboard */,
 				5E7E444627413F480003BC34 /* Info.plist */,
+				5EAFCB1F27471AF700552062 /* Settings.bundle */,
 				5E7E443E27413F470003BC34 /* MarcosApostolo.xcdatamodeld */,
+				5EB2632727416A390070B4A5 /* ViewController+context.swift */,
+				5EF191342742961E00F19F01 /* Purchase+Various.swift */,
+				5EF191362742B1A800F19F01 /* ViewController+keyboard.swift */,
+				5EF191382742B3EE00F19F01 /* ViewController+textField.swift */,
+				5EB84448274495FA0068C788 /* ResultCalculator.swift */,
+				5EAFCB2127471FE400552062 /* SettingsConfig.swift */,
 			);
 			path = MarcosApostolo;
 			sourceTree = "<group>";
@@ -82,6 +112,7 @@
 		5EB2631C274164100070B4A5 /* RegisterProduct */ = {
 			isa = PBXGroup;
 			children = (
+				5EF191472742C51000F19F01 /* Components */,
 				5EB26323274164B80070B4A5 /* RegisterViewController.swift */,
 			);
 			path = RegisterProduct;
@@ -91,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				5E7E443927413F470003BC34 /* PurchasesViewController.swift */,
+				5EF19130274291EB00F19F01 /* PurchasesTableViewCell.swift */,
 			);
 			path = Purchases;
 			sourceTree = "<group>";
@@ -99,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				5E7E4450274142FC0003BC34 /* SettingsViewController.swift */,
+				5EF191402742BC6400F19F01 /* StatesTableViewCell.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -109,6 +142,14 @@
 				5EB26320274164890070B4A5 /* ResultsViewController.swift */,
 			);
 			path = Results;
+			sourceTree = "<group>";
+		};
+		5EF191472742C51000F19F01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5EF191482742C52100F19F01 /* StatesPickerPresenter.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAFCB2027471AF700552062 /* Settings.bundle in Resources */,
 				5E7E444527413F480003BC34 /* LaunchScreen.storyboard in Resources */,
 				5E7E444227413F480003BC34 /* Assets.xcassets in Resources */,
 				5E7E443D27413F470003BC34 /* Main.storyboard in Resources */,
@@ -182,12 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF191392742B3EE00F19F01 /* ViewController+textField.swift in Sources */,
+				5EF191492742C52100F19F01 /* StatesPickerPresenter.swift in Sources */,
 				5E7E443A27413F470003BC34 /* PurchasesViewController.swift in Sources */,
 				5E7E444027413F470003BC34 /* MarcosApostolo.xcdatamodeld in Sources */,
+				5EF191422742BC6400F19F01 /* StatesTableViewCell.swift in Sources */,
+				5EF191352742961E00F19F01 /* Purchase+Various.swift in Sources */,
+				5EAFCB2227471FE400552062 /* SettingsConfig.swift in Sources */,
+				5EA588D42753D52E0074B206 /* SceneDelegate.swift in Sources */,
 				5EB26324274164B80070B4A5 /* RegisterViewController.swift in Sources */,
+				5EF19132274291EB00F19F01 /* PurchasesTableViewCell.swift in Sources */,
 				5E7E443627413F470003BC34 /* AppDelegate.swift in Sources */,
+				5EA588D62753DCC30074B206 /* Values.swift in Sources */,
+				5EB2632827416A390070B4A5 /* ViewController+context.swift in Sources */,
+				5EB84449274495FA0068C788 /* ResultCalculator.swift in Sources */,
+				5EF191372742B1A800F19F01 /* ViewController+keyboard.swift in Sources */,
 				5E7E4451274142FC0003BC34 /* SettingsViewController.swift in Sources */,
-				5E7E443827413F470003BC34 /* SceneDelegate.swift in Sources */,
 				5EB26321274164890070B4A5 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +389,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYGNN62JJ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarcosApostolo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ComprasUSA;
@@ -366,6 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYGNN62JJ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarcosApostolo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ComprasUSA;
