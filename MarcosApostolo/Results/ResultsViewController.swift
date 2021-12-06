@@ -108,10 +108,28 @@ class ResultsViewController: UIViewController {
             BRLValue = resultCalculator.getValueInBRL()
         }
     }
+    
+    private func updateWarning() {
+        let purchases = fetchedResultsController.fetchedObjects
+        
+        if let purchases = purchases {
+            let hasPuchasesWithoutStateTaxInfo = purchases.contains { purchase in
+                return purchase.state == nil
+            }
+            
+            if (hasPuchasesWithoutStateTaxInfo) {
+                warningStackView.isHidden = false
+            } else {
+                warningStackView.isHidden = true
+            }
+        }
+    }
 }
 
 extension ResultsViewController: NSFetchedResultsControllerDelegate {
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         updateWithValues()
+        
+        updateWarning()
     }
 }

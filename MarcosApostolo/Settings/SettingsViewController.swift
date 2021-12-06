@@ -280,6 +280,12 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
                 return
             }
             
+            if (taxValue.contains(".")) {
+                self.doubleFormatter.decimalSeparator = "."
+            } else if (taxValue.contains(",")) {
+                self.doubleFormatter.decimalSeparator = ","
+            }
+            
             guard let doubleTaxValue = self.doubleFormatter.number(from: taxValue) else {
                 self.handleError(with: nil)
                 return
