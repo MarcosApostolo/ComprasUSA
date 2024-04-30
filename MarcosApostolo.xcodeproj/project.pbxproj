@@ -31,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AAFF0F92BE10219000128BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E7E443227413F470003BC34 /* MarcosApostolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcosApostolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7E443527413F470003BC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E7E443927413F470003BC34 /* PurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		5E7E442927413F470003BC34 = {
 			isa = PBXGroup;
 			children = (
+				4AAFF0F92BE10219000128BF /* README.md */,
 				5EA588D52753DCC30074B206 /* Values.swift */,
 				5E7E443427413F470003BC34 /* MarcosApostolo */,
 				5E7E443327413F470003BC34 /* Products */,
